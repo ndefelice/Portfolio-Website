@@ -1,0 +1,34 @@
+.desc-container {
+    opacity: 0;
+    transition: all 2.5s;
+}
+.about-title, .experience-title, .proj-header, .about-desc, .about-desc-final, .github-desc, .job {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.fade {
+    opacity: 1;
+}
+
+
+
+.bio, .self-portrait {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.25s;
+}
+
+.proj-container {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.4s;
+}
+
+.fadeLeftToRight {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}

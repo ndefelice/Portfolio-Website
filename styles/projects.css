@@ -1,0 +1,180 @@
+.projects {
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.proj-header {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 40px;
+
+    margin-top: 60px;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    color: #ececec;
+}
+.proj-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: auto;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-bottom-color: #ececec;
+
+    color: #9fd3c7;
+}
+.proj-image {
+    width: 325px;
+    height: auto;
+}
+.proj-details {
+    display: block;
+    align-items: center;
+    text-align: center;
+    height: auto;
+
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.proj-title {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+
+    display: block;
+
+    margin-bottom: 5%;
+}
+.languages-tools {
+    display: block;
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+}
+.language, .tool {
+    padding: 4px;
+
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 25px;
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+}
+.proj-desc {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ececec;
+
+    display: block;
+
+    margin-bottom: 5%;
+}
+.proj-link {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    background-color: transparent;
+    border: 1px solid #9fd3c7;
+    color: #9fd3c7;
+    border-radius: 5px;
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 17px;
+
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.proj-link:hover {
+    background-color: #9fd3c7;
+    color: black;
+}
+
+.github-desc {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 25px;
+
+    margin-top: 7.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    color: #ececec;
+}
+.github-link {
+    padding: 12px;
+
+    background-color: transparent;
+    border: 2px solid #ececec;
+    color: #ececec;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: all 0.15s;
+
+    margin: 40px;
+}
+.github-link:hover {
+    background-color: #ececec;
+    color: black;
+}
+
+@media(max-width:925px) {
+    .proj-header {
+        font-size: 30px;
+
+        margin-bottom: 10%;
+    }
+    .proj-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .proj-image {
+        width: 325px;
+
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .github-desc {
+        font-size: 22px;
+    }
+    .proj-title {
+        font-size: 19px;
+
+        margin-bottom: 7.5%;
+    }
+    .proj-desc {
+        font-size: 16px;
+
+        margin-bottom: 7.5%;
+    }
+}
